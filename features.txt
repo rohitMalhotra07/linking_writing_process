@@ -1,0 +1,100 @@
+* total_time taken in writing (last_down_time - first_downtime) **** Done ****
+
+for each in ['Nonproduction','Input','Remove/Cut','Paste','Replace']
+    * input start time -> time of first input (ratio) -> (first input down time - first down time)/total_time_taken **** Done ****
+    * input end time -> time of last input -> (last input down time - first down time)/total_time_taken **** Done ****
+
+for each in ['Nonproduction','Input','Remove/Cut','Paste','Replace']
+    * average time between consecutive same event, min, max,std,median,mode,skew,kurtosis **** Done ****
+
+
+* Activity counts:
+    * Number of total of every activity type like paste (ratio) -> total ['Nonproduction','Input','Remove/Cut','Paste','Replace'] **** Done ****
+
+
+* For each activity type in ['Nonproduction','Input','Remove/Cut','Paste','Replace']: **** Done ****
+    - number of different down_events
+
+* For Remove/Cut: (This can show about typing habbits) **** Done ****
+    - people use ->
+    - 
+        Backspace     959230
+        Delete         10636
+        x                124
+        z                 92
+        Rightclick        76
+
+    - percentage of each type of remove/cut
+
+* Similarly For Paste -> percentage of each type of paste *** No need to do because only 317 people in train have paste activity ****
+    v             269
+    Space         180
+    Rightclick     50
+
+* Similarly for Replace -> percentage of each type of replace **** Done ****
+    q             3923
+    Space          242
+    .               80
+    ,               51
+    z               36
+    v               22
+    Enter           22
+    Rightclick      12
+
+* Similarly for non-production -> -> percentage of each type of non-production **** Done ****
+    * ['Shift', 'ArrowRight', 'Leftclick', 'ArrowLeft', 'ArrowDown',
+       'ArrowUp', 'CapsLock', 'Control', 'Backspace',
+       'Tab', 'ContextMenu', 'End', 'Rightclick', 'Meta', 'Alt', 'c',
+       'Delete', 'NumLock', 'Insert', 'Home', 'Space', 'AudioVolumeDown',
+       'F2', 'a', 'AudioVolumeUp']
+
+* Similarly for Input -> percentage of each type of input: **** Done ****
+    q        5361396 -> represents character
+    Space    1206512 -> Represents number of words
+    .          59496 -> number of lines
+    ,          46752 -> 
+    Enter      22655 -> number of paragraphs
+    '          11166
+    "           4091
+    -           3832
+    ?           3151
+    ;           1778
+    =           1142
+    /            868
+    :            632
+    (            610
+    )            578
+    \            547
+    !            545
+    [            367
+    $             97
+    >             89
+    ]             80
+    *             69
+    %             65
+    &             60
+    <             34
+    +             28
+    z             26
+    _             20
+    {             18
+    `             17
+    #             17
+--------------------
+Define distraction events like -> Volume up down, mute and others.
+
+
+-> Cursor position:
+    -> max cursor position **** Done ****
+    -> Average of cursor_position_shift1- cursor_position **** Done ****
+    -> can take ratio of 1 and 2
+    -> Number of spikes in cursor position (mainly downward spikes) -> number of negative shift1-current **** Done ****
+    -> max length of down spkie **** Done ****
+
+-> Word count
+    -> number of times word deleted **** Done ****
+     -> max word_count 
+     -> Average of word_count_shift1- word_count **** Done ****
+     -> ratio of 1 and 2
+     -> Number times word count has gone down that previous count (number of deletions)**** Done ****
+     -> max length of down spike.**** Done ****

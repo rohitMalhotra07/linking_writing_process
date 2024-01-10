@@ -1,0 +1,14 @@
+5 folds, stratified k fold:
+    * 5 time split of 1000 -> 0.63568 ->0.603
+    * 13 time split of 1000 -> 0.637198
+
+    * new_features: 0.63912
+    * new_features set3 -> 0.63578
+    * new_features_set 3 without gap features -> 0.63673
+
+
+    * 20 time split 500, features set1, stat features time split action_time and word added -> 0.6350
+        - gaps -> [1,10,100,1000] -> 0.6368
+        - gaps -> [1,10,100] -> 0.63595
+        - [1,5,10,15,30,50] ->  0.635851
+     * increasing event values -> 0.6369 

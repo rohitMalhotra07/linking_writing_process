@@ -1,0 +1,23 @@
+Experiment 1:
+
+XGB,CAT,LGBM -> Parameter tuning 50 trial, is_local-> False (based on oof), token_features -> False, Info gain features filtering -> False, VIF Features filtering -> False
+LB - 0.582, CV -> 0.5987476194457468,0.595537226977272,0.5989669165730424,0.5994465436410288,0.5980548392424507
+
+
+Experiment 2:
+
+XGB,CAT,LGBM -> Parameter tuning 50 trial, is_local-> False (based on oof), token_features -> False, Info gain features filtering -> True, VIF Features filtering -> False
+LB -> 0.583 CV -> 0.5983453871236875,0.5953361297493601,0.5985084683206964,0.5989660144997527,0.5976094292752328
+
+
+Experiment 3:
+
+XGB,CAT,LGBM -> Parameter tuning 50 trial, is_local-> False (based on oof), token_features -> False, Info gain features filtering-> False, VIF Features filtering -> True
+
+
+
+* Use feature selection on my features add them with 165 features notebook, plus word2vec
+* Run 165 features notebook just with my trainer code.
+
+
+* Use stratified kfold split.

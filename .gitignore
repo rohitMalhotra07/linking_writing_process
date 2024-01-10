@@ -1,0 +1,11 @@
+data/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+_vizdoom.ini
+.DS_Store
+lightning_logs/
+training_logs/
+catboost_info/
+*.ckpt
+*.sav
